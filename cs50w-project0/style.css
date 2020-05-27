@@ -41,15 +41,23 @@ div>[class*="col- col-sm- col-md- col-lg-"] {
     }
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 321px) {
+=======
+@media screen and (min-width: 481px) {
+>>>>>>> parent of 6671a08... Testing for portrait support in 6-inches mobile devices. 640px
     .component-image {
         height: 100vh;
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 320px) {
+=======
+@media screen and (max-width: 480px) {
+>>>>>>> parent of 6671a08... Testing for portrait support in 6-inches mobile devices. 640px
     .component-image {
-        height: 40vh;
+        height: 35vh;
     }
 }
 
