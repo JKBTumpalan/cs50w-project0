@@ -41,15 +41,15 @@ div>[class*="col- col-sm- col-md- col-lg-"] {
     }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 641px) {
     .component-image {
         height: 100vh;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
     .component-image {
-        height: 35vh;
+        height: 40vh;
     }
 }
 
