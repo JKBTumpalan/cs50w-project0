@@ -49,7 +49,7 @@ div>[class*="col- col-sm- col-md- col-lg-"] {
 
 @media screen and (max-width: 720px) {
     .component-image {
-        height: 35vh;
+        height: 45vh;
     }
 }
 
