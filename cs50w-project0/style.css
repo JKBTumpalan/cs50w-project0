@@ -35,13 +35,13 @@ div>[class*="col- col-sm- col-md- col-lg-"] {
     overflow: hidden;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 900px) {
     .component-image {
         height: 100vh;
     }
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (min-width: 10px) {
     .component-image {
         height: 100vh;
     }
