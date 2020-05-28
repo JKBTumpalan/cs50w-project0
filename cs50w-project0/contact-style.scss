@@ -1,16 +1,81 @@
+$brightness_transition: all 1s ease;
 i {
     margin: auto;
 }
 
-.nav-link {
-    font-size: 1.45em;
-    // border: 1px solid black;
+//Header CSS
+.row {
+    margin-bottom: 0px;
+    #header-text {
+        position: absolute;
+        left: 40px;
+        text-align: center;
+    }
+    .col-12 {
+        position: relative;
+        top: 10px;
+        background-color: burlywood;
+    }
+    .page-title {
+        position: relative;
+        left: 15px;
+    }
+    h1 {
+        padding-bottom: 40px;
+        padding-left: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
 }
 
-#contact-text {
-    position: relative;
+.col-2 {
+    z-index: 2;
+}
+
+//Landscape-mobile
+@media screen and (min-width: 721px) {
+    #header-text {
+        left: 20px;
+        padding-left: 0px;
+    }
+}
+
+//Portrait-mobile
+@media screen and (max-width: 720px) {
+    #header-text {
+        left: 20px;
+        padding-left: 0px;
+    }
+}
+
+.nav-link {
+    font-size: 1.0em;
+}
+
+.nav-link:hover {
+    color: rgb(73, 73, 255);
+}
+
+#header-text,
+#credit-text {
     top: 10px;
     text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#credit-text {
+    top: 0px;
+    margin-left: 0px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 .fa-facebook-messenger,
@@ -23,11 +88,6 @@ i {
     margin-top: 100px;
     margin-bottom: 20px;
     list-style: none;
-}
-
-.col-2 {
-    // border: 1px solid black;
-    z-index: 2;
 }
 
 .lead,
@@ -66,11 +126,15 @@ h1 {
 
 .jumbotron:hover {
     -webkit-filter: brightness(75%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: $brightness_transition;
+    -moz-transition: $brightness_transition;
+    -o-transition: $brightness_transition;
+    -ms-transition: $brightness_transition;
+    transition: $brightness_transition;
+}
+
+.btn {
+    margin-bottom: 50px;
 }
 
 .container {
@@ -103,6 +167,8 @@ h1 {
     // border: 1px solid red;
     height: 100px;
     width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .source-img:hover {

@@ -1,13 +1,59 @@
 i {
   margin: auto; }
 
-.nav-link {
-  font-size: 1.45em; }
+.row {
+  margin-bottom: 0px; }
+  .row #header-text {
+    position: absolute;
+    left: 40px;
+    text-align: center; }
+  .row .col-12 {
+    position: relative;
+    top: 10px;
+    background-color: burlywood; }
+  .row .page-title {
+    position: relative;
+    left: 15px; }
+  .row h1 {
+    padding-bottom: 40px;
+    padding-left: 8px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
-#contact-text {
-  position: relative;
+.col-2 {
+  z-index: 2; }
+
+@media screen and (min-width: 721px) {
+  #header-text {
+    left: 20px;
+    padding-left: 0px; } }
+@media screen and (max-width: 720px) {
+  #header-text {
+    left: 20px;
+    padding-left: 0px; } }
+.nav-link {
+  font-size: 1.0em; }
+
+.nav-link:hover {
+  color: #4949ff; }
+
+#header-text,
+#credit-text {
   top: 10px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+#credit-text {
+  top: 0px;
+  margin-left: 0px; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
 
 .fa-facebook-messenger,
 .fa-facebook,
@@ -18,9 +64,6 @@ i {
   margin-top: 100px;
   margin-bottom: 20px;
   list-style: none; }
-
-.col-2 {
-  z-index: 2; }
 
 .lead,
 h1 {
@@ -53,6 +96,9 @@ h1 {
   -ms-transition: all 1s ease;
   transition: all 1s ease; }
 
+.btn {
+  margin-bottom: 50px; }
+
 .jumbotron-content {
   width: 100%; }
 
@@ -70,7 +116,9 @@ h1 {
 
 .source-img {
   height: 100px;
-  width: 100px; }
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .source-img:hover {
   transform: scale(1.4);

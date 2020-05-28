@@ -1,0 +1,85 @@
+.row {
+    margin-bottom: 0px;
+    .col-2 {
+        position: absolute;
+        left: 40px;
+        text-align: center;
+    }
+    .col-12 {
+        position: relative;
+        top: 10px;
+        background-color: burlywood;
+    }
+    .page-title {
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+    h1 {
+        padding-bottom: 40px;
+        padding-left: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+}
+
+.col-2 {
+    z-index: 2;
+}
+
+//Desktop
+@media screen and (min-width: 900px) {
+    .carousel-container {
+        padding-top: 20px;
+        height: 70vh;
+        width: 90%;
+        margin: auto;
+    }
+    #carousel-div {
+        // background-color: burlywood;
+    }
+}
+
+//Landscape-mobile
+@media screen and (min-width: 721px) {
+    .carousel-image {
+        height: 60vh;
+    }
+    .card-container {
+        width: 100vh;
+    }
+}
+
+//Portrait-mobile
+@media screen and (max-width: 720px) {
+    .carousel-image {
+        height: 60vh;
+    }
+    .card-container {
+        width: 100vh;
+    }
+}
+
+.carousel-container:hover {
+    -webkit-filter: brightness(70%);
+    transition: ease 1s;
+}
+
+.card-img-top {
+    max-height: 300px;
+    width: 98%;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.card {
+    justify-content: center;
+    padding: 10px;
+    padding-left: 17px;
+    height: 100%;
+}
+
+.card-row {
+    margin-left: 5px;
+}
