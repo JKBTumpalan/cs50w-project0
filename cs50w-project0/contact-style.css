@@ -1,0 +1,79 @@
+i {
+  margin: auto; }
+
+.nav-link {
+  font-size: 1.45em; }
+
+#contact-text {
+  position: relative;
+  top: 10px;
+  text-align: center; }
+
+.fa-facebook-messenger,
+.fa-facebook,
+.fa-twitter {
+  color: #4949ff; }
+
+.link-list {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  list-style: none; }
+
+.col-2 {
+  z-index: 2; }
+
+.lead,
+h1 {
+  padding-top: 20px;
+  color: black; }
+
+#reach-message {
+  font-size: large;
+  color: black; }
+
+.link-list {
+  padding-left: 0; }
+
+.jumbotron-parent {
+  position: relative;
+  width: 100%; }
+
+.jumbotron {
+  text-align: center;
+  -webkit-filter: brightness(100%);
+  background-image: url("img/bg3.jpg");
+  background-size: cover;
+  padding: 0; }
+
+.jumbotron:hover {
+  -webkit-filter: brightness(75%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; }
+
+.jumbotron-content {
+  width: 100%; }
+
+.link-icon {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  transition: transform 1s; }
+
+.link-icon:hover {
+  transform: scale(2) rotate(360deg); }
+
+.source-content {
+  text-align: center; }
+
+.source-img {
+  height: 100px;
+  width: 100px; }
+
+.source-img:hover {
+  transform: scale(1.4);
+  transition: 1s; }
+
+/*# sourceMappingURL=contact-style.css.map */
